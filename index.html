@@ -3,25 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Meu portifólio - Osmar Junior</title>
+        <style>
+          body{
+              background-image: linear-gradient(#03045E, #023E8A);
+          }  
+          h2{
+              font-size: 15pt;
+              font-family:'Times New Roman', Times, serif;
+          }
+          #descricao{
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 11pt;
+          }
+          a[href*="linkedin"]{
+              font-size: 10pt;
+          }
+          #quem, #secoes{
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 18pt;
+          }
+        </style>
     </head>
     <body>
         <h1>Portfólio de Osmar Junior</h1>
         <p>Seja bem-vindo(a) a minha página, aqui você saberá mais um pouco sobre mim, minhas habilidades, sobre minha carreira e projetos.</p>
 
-        <h2><strong>Seções:</strong></h2>
+        <h2 id="secoes"><strong>Seções:</strong></h2>
         <ul>
             <li><a href="#foto_de_rosto">Um pouco sobre mim</a></li>
-            <li><a href="#quem">Quem sou eu</a></li>
             <li><a href="#habilidades">Minhas Habilidades</a></li>
             <li><a href="#blogs">Blogs Interessantes:</a></li>
         </ul>
         <img id="foto_de_rosto" src="./image/Eu.jpg" width="300px" alt="Foto de Osmar Junior.">
-        <h2><strong>Osmar da Silva Ramos Junior(<a href="https://www.linkedin.com/in/oshrj" target="_blank">www.linkedin.com/in/oshrj</a>)</strong></h2>
-        <h3>Tecnólogo em Processamento de dados | Especialista em Análise de Sistemas | Estudante de Desenvolvimento WEB na Trybe</h3>
-        <h4>Brasileiro | Belém/Pa</h4><br><br>
+        
+        <h2><strong>Osmar da Silva Ramos Junior <a href="https://www.linkedin.com/in/oshrj" target="_blank">www.linkedin.com/in/oshrj</a></strong></h2>
+        
+        <h3 id="descricao">Tecnólogo em Processamento de dados | Especialista em Análise de Sistemas | <br>Estudante de Desenvolvimento WEB na Trybe</h3>
+        
+        <h4>Brasileiro | Belém/Pa</h4>
+        
         <h2 id="quem"><strong>Quem sou eu</strong></h2>
-        <p>Sou <a href="#foto_de_rosto">Osmar Junior</a>, sou de Belém do Pará, cidade das mangueiras. Curioso e apaixonado por tecnologia fiz vários cxursos na área de informática, alguns de windows, manutenção de PC, rede de comutadores. Sou graduado em Tecnologia em Processamento de Dados pela <strong><a>Universidade da Amazônia - Unama</a></strong>, fiz Esecialização em Análise de sistemas pela <strong><a>Universidade Federal do Pará - UFPA</a></strong>. Trabalhei Como Técnico em Informática em uma empresa da região em 2008, onde fiquei por 7 meses. Após esse período fiz curso de Inglês, onde me formei, mas não sou fluente. Nos Últimos 10 anos, dediquei-me a gastronomia, principalmente a Confeitaria, mas em semppre com o desejo de ser desenvolvedor e em 2021, conheci a <a href="https://betrybe.com" target="_blank"><em>Trybe</em></a> e agora sou um Estudante de desenvolvimento WEB.
+        
+        <p>Sou <a href="#foto_de_rosto">Osmar Junior</a> de Belém do Pará, cidade das mangueiras. Curioso e apaixonado por tecnologia fiz vários cxursos na área de informática, alguns de windows, manutenção de PC, rede de comutadores. Sou graduado em Tecnologia em Processamento de Dados pela <strong><a>Universidade da Amazônia - Unama</a></strong>, fiz Esecialização em Análise de sistemas pela <strong><a>Universidade Federal do Pará - UFPA</a></strong>. Trabalhei Como Técnico em Informática em uma empresa da região em 2008, onde fiquei por 7 meses. Após esse período fiz curso de Inglês, onde me formei, mas não sou fluente. Nos Últimos 10 anos, dediquei-me a gastronomia, principalmente a Confeitaria, mas semppre com o desejo de ser desenvolvedor e em 2021, conheci a <a href="https://betrybe.com" target="_blank"><em>Trybe</em></a> e agora sou um Estudante de desenvolvimento WEB.
         </p>
+        
         <h2 id="habilidades"><strong>Habilidades:</strong></h2>
         <ul>
             <li>Lógica de Programação;</li>
@@ -31,23 +56,12 @@
             <li><Strong>Ser um explicador</Strong></li>
             <li><Strong>Saber aprender</Strong></li>
         </ul>
+        
         <h2 id="blogs"><strong>Blogs Interessantes:</strong></h2>
         <ul>   
             <li><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
             <li><a href="https://diolinux.com.br/" target="_blank"></a>Diolinux</li>
             <li><a href="https://www.tecmundo.com.br/" target="_blank">TecMundo</a></li>
-        </ul>
-        <h1>Requisitos</h1><br><br>
-        <p>As informações desejadas:</p><br><br>
-        <ul>
-            <li>Nome completo</li>
-            <li>foto atual, com texto alternativo, descrevendo a foto.</li>
-            <li>Breve descrição a meu respeito, nacionalidade e cidade/estado </li>
-            <li>Lista de habilidades, destacando a que me orgulha</li>
-            <li>Um link interno para foto</li>
-            <li>Link externo para um blog, em nova aba</li>
-            <li>destacar artes do ortifolio em itálico e/ou negrito</li>
-            <li>Um índice interno para partes do portifólio</li>
         </ul>
     </body>
 </html>
