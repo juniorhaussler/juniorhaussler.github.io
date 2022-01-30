@@ -1,0 +1,86 @@
+/* Início estilizando div's */
+#cabecalho{}
+#foto{}
+#aboutMe{}
+#indice{}
+#quemSouEu{}
+#minhasHabilidades{}
+#blogsInt{}
+
+/* Fim estilizando div's */
+body{
+  color: white;
+  background-image: linear-gradient(#808080, #000000);
+}
+h1{
+  text-align: center;
+}  
+h2{
+  font-size: 15pt;
+  font-family:'Times New Roman', Times, serif;
+}
+h4{
+  font-weight: normal;
+  border: white;
+  border-style: inset;
+}
+#foto_de_rosto{
+  border-radius: 100%;
+  width: 200px;
+}
+#descricao{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 11pt;
+  
+}
+p{
+  font-size: 15pt;
+}
+/* Início - Estilizando links */
+a{
+  text-decoration-line: none;
+  font-style: italic;
+  color: white;
+}
+a[href*="linkedin"]{
+  font-size: 10pt;
+}
+a:visited{
+  color: yellow;
+}
+a:hover{
+  font-weight: bold;
+  background-color: black;
+}
+#quem, #indice{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+}
+/* Fim - Estilizando links */
+
+
+/* Início - Classes das habilidades */
+
+.logica{
+   font-size: 20pt;
+} 
+.git{
+   font-size: 22pt;
+}
+.html{
+   font-size: 24pt;
+}
+.css{
+   font-size: 26pt;
+}
+.ingles{
+   font-size: 28pt;
+}
+.explicador{
+   font-size: 30pt;
+}
+.aprender{
+   font-size: 30pt;
+}
+
+/* Fim - Classes das habilidades */
