@@ -1,0 +1,140 @@
+/* zera todas as margens e padding da página */
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Início estilizando div's */
+#container{
+  
+  padding: 10px;
+  width: 0%;
+}
+.IinliBox{
+  display: inline-block;
+}
+#cabecalho{
+  width: 100%;
+  height: 280px;
+  margin: 10px;
+  padding: 30px 10px 10px 10px;
+  vertical-align: middle;
+}
+#foto{
+  padding: 10px;
+  background-color: rgba(207, 204, 204, 0.452);
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  float: left;
+}
+#aboutMe{
+  margin: 50px 0 0 10px;
+  margin-top: 50px;
+  width: 60%;
+  float: left;
+}
+#indice{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 0 10px 35px;
+  margin-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+#quemSouEu{
+  margin:  10px 0 5px 0;
+  padding: 10px 20px 0 20px;
+}
+#minhasHabilidades{
+  margin: 10px 0 10px 20px;
+  padding: 10px;
+}
+#blogsInt{
+  margin: 10px 0 10px 20px;
+  padding: 10px;
+}
+
+/* Fim estilizando div's */
+body{
+  color: white;
+  background-image: linear-gradient(#808080, #000000);
+}
+h1{
+  margin-top: 10px;
+  text-align: center;
+}  
+h2{
+  font-size: 15pt;
+  font-family:'Times New Roman', Times, serif;
+}
+h4{
+  font-weight: normal;
+  width: 140px;
+  border: white;
+  border-style: inset;
+}
+#foto_de_rosto{
+  border-radius: 100%;
+  width: 200px;
+}
+#descricao{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 11pt;
+  
+}
+p{
+  font-size: 15pt;
+  text-align: justify;
+}
+/* Início - Estilizando links */
+a{
+  text-decoration-line: none;
+  font-style: italic;
+  color: white;
+}
+a[href*="linkedin"]{
+  font-size: 10pt;
+}
+a:visited{
+  color: yellow;
+}
+a:hover{
+  font-weight: bold;
+  background-color: black;
+}
+#quem{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18pt;
+}
+/* Fim - Estilizando links */
+
+#habList li:nth-child(odd){
+  font-style: italic;
+  color: orange;
+
+/* Início - Classes das habilidades */
+
+
+.logica{
+   font-size: 20pt;
+} 
+.git{
+   font-size: 22pt;
+}
+.html{
+   font-size: 24pt;
+}
+.css{
+   font-size: 26pt;
+}
+.ingles{
+   font-size: 28pt;
+}
+.explicador{
+   font-size: 30pt;
+}
+.aprender{
+   font-size: 30pt;
+}
+
+/* Fim - Classes das habilidades */
